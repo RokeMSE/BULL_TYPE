@@ -1,0 +1,15 @@
+{
+  "name": "typing_game",
+  "version": "1.0.0",
+  "description": "Premises: A typing game but with Vietnamese famous Quote\r #",
+  "main": "dist/script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roke",
+  "license": "ISC",
+  "dependencies": {
+    "grapheme-splitter": "^1.0.4"
+  }
+}

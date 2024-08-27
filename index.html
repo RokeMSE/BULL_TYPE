@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script> 
+    <!-- defer: loads the script after the page is loaded -->
+    <title> Bull-Type </title> 
+</head>
+<body>
+    <div class="timer" id="timer">0.0</div> <!-- Timer -->
+    <div class="accuracy" id="accuracy"></div> <!-- Accuracy -->
+
+    <!-- Mode Button: Trương Anh Ngọc | English -->
+    <div class="mode" id="mode">
+        <button id="btnTAN" type="button">Trương Anh Ngọc</button>
+        <button id="btnEnglish" type="button">English</button>
+    </div>
+    
+    <div class="container">
+        <div class="text-display" id="textDisplay"></div>
+        <textarea id="textInput" class="text-input" autofocus></textarea> 
+        <!-- autofocus: automatically put the mouse cursor on the desginated area -->
+    </div>
+    <div class="kps" id="kps">Keys/second</div> <!-- kps: Keys per second -->
+</body>
+</html>
