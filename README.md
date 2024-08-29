@@ -10,6 +10,8 @@
 - Graph: KPS, Accuracy over time
 - Save data to local storage ??
 - Stop: stop the timer and the game (clear all texts or cancel the game via button/esc key)
+
+# Currently hosting on Netlify: 'https://bulltype.netlify.app'
     
 # Project Ref: 
 1. Build A Speed Typing Game With JavaScript - Tutorial (By Web Dev Simplified).
