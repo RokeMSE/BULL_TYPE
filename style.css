@@ -83,6 +83,11 @@ body, .text-input {
     margin-bottom: 1rem;
 }
 
+.timeLimit {
+    display: flex;
+    justify-content: center;
+}
+
 button {
     background-color: #12193a; 
     border: none; 
@@ -107,3 +112,15 @@ button:focus {
     outline: none; /* Remove outline on focus */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow for better focus indication */
 }
+
+/* Button Active Effect */
+button:active {
+    background-color: #0f1531; /* Darker green on click */
+}
+
+/* Button Disabled Effect */
+button:disabled {
+    background-color: #50699e; /* Darker green on hover */
+    cursor: not-allowed; /* Disable cursor on disabled button */
+}
+

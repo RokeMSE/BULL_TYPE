@@ -10,19 +10,29 @@
 </head>
 <body>
     <div class="timer" id="timer">0.0</div> <!-- Timer -->
-    <div class="accuracy" id="accuracy"></div> <!-- Accuracy -->
+
+    <!-- Time limit chooser -->
+    <div class="time-limit" id="timeLimit">
+        <button id="btn30s" type="button">30s</button>
+        <button id="btn60s" type="button">60s</button>
+        <button id="btn90s" type="button">90s</button>
+        <button id="btn120s" type="button">120s</button>
+    </div>
 
     <!-- Mode Button: Trương Anh Ngọc | English -->
     <div class="mode" id="mode">
         <button id="btnTAN" type="button">Trương Anh Ngọc</button>
         <button id="btnEnglish" type="button">English</button>
     </div>
-    
+
     <div class="container">
         <div class="text-display" id="textDisplay"></div>
         <textarea id="textInput" class="text-input" autofocus></textarea> 
         <!-- autofocus: automatically put the mouse cursor on the desginated area -->
     </div>
+
+    <!-- Result -->
     <div class="kps" id="kps">Keys/second</div> <!-- kps: Keys per second -->
+    <div class="accuracy" id="accuracy">Accuracy</div> <!-- Accuracy -->
 </body>
 </html>
