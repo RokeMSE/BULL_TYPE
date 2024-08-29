@@ -180,7 +180,7 @@ function calculateKPS() {
             correctCharacters++
         }
     })
-    //console.log(correctCharacters)
+    console.log(correctCharacters)
     const timeElapsed = parseFloat(timerElement.innerText)
     console.log(timeElapsed)
     return (correctCharacters / timeElapsed).toFixed(2)
